@@ -65,6 +65,23 @@ FEMA itself.
   The same standard currently applied to the Internet must be applied to
   systems for when infrastructure *does* collapse.
 
+* Routing such a complex system is a problem. Data links must periodically
+  broadcast their links to other systems, and the router can memorize this
+  information and use it to query a data link if the route is still valid when
+  it has a message to deliver. To reduce routing complexity, the system will
+  divide addresses for fixed stations geographically, and provide the option
+  to use a geographical hub stations for routing, and addresses that include
+  a geographical hierarchy. These do not, however, remove the mesh routing
+  capability. A system that has just reached the air does not have many routes
+  memorized, and can forward messages to its own geographical hub or ask that
+  hub for a route dump. To route to an address like
+  K6BP-1@berkeley.ca.us.hams.com (yes, I really own that domain) without
+  enough information to route end-to-end, a system can choose an Amateur Radio
+  hub, or one specific to the United States, California, or Berkeley to forward
+  the message. The response to such a routing should forward the message, and
+  provide the sending system a message with a more specific route, so that the
+  hub can offload communications to the mesh as it operates.
+
 * Due to all of the above, interoperability with Winlink is *NOT A GOAL*.
   This is the next generation, and must stand alone.
 
