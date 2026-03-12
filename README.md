@@ -21,7 +21,8 @@ FEMA itself.
   internet, or even USB-stick sneakernet to an operating system.
 
 * The Winlink architecture is more like old telephone systems than the
-  more modern Internet. There are centrally-managed servers which
+  more modern Internet.
+  There are centrally-managed servers which
   are not Open Source. Management of the servers is controlled by one
   organization, not really responsible to anyone although they have been
   responsive to issues somewhat. The absence of another system makes it
@@ -48,8 +49,19 @@ FEMA itself.
   as is the standard with the software that implements the Internet. This
   is a critical consideration, as nothing but constant public review has
   proven to be capable of supporting something so large and distributed
-  as the Internet. The same standard must be applied to systems for when
-  infrastructure *does* collapse.
+  as the Internet.
+
+  In contrast to the security and integrity of the Internet in the face
+  of constant attacks, the use
+  of in-band-signalling was very widely deployed in the long-distance
+  telephone system primarily operated by ATT as the Bell System, making
+  it wide open to exploits (see https://en.wikipedia.org/wiki/Blue_box ).
+  A public review would made such an obvious mistake clear, and avoided
+  the great expense borne by phone companies in moving all of that control
+  signalling out-of-band.
+
+  The same standard currently applied to the Internet must be applied to
+  systems for when infrastructure *does* collapse.
 
 * Due to all of the above, interoperability with Winlink is *NOT A GOAL*.
   This is the next generation, and must stand alone.
