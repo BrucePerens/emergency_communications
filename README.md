@@ -51,6 +51,9 @@ FEMA itself.
   as the Internet. The same standard must be applied to systems for when
   infrastructure *does* collapse.
 
+* Due to all of the above, interoperability with Winlink is *NOT A GOAL*.
+  This is the next generation, and must stand alone.
+
 * FEMA and the states have a severe audit burden connected with emergency
   funding. If the state doesn't prove to FEMA that funds granted were
   spent as required by FEMA's policies, they have to pay FEMA back!
