@@ -35,7 +35,9 @@ FEMA itself.
   To preserve reliability and message integrity in
   such an environment, checksums or CRC and digital signature,
   and end-to-end acknowledgement, with retransmission if necessary, must be
-  used. Delivery notices must be part of the ICS form workflow, and
+  used. Delivery notices must be part of the ICS form workflow, the existence
+  of un-delivered
+  messages must be immediately visible to responsible personnel, and
   there should be great attention to the need to not lose a form in the
   system through failure to deliver it. In that context, duplication of
   delivery is permissible and must be handled without creating duplication
